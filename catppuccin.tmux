@@ -324,7 +324,7 @@ main() {
   # --------=== Modes
   #
   setw clock-mode-colour "${thm_blue}"
-  setw mode-style "fg=${thm_pink} bg=${thm_black4} bold"
+  setw mode-style "fg=${thm_black} bg=${thm_green} bold"
 
   tmux "${tmux_commands[@]}"
 }
